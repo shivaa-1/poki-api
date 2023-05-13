@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container h1{
+    margin: 10px;
+    padding: 10px;
+}
+
+.container h1:hover{
+    color: cornflowerblue;
+}
+
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    border-radius: 25px;
+    background-color: aquamarine;
+}
+
+.card img{
+    width: 200px;
+}
+
+.card button:hover{
+    background-color: burlywood;
+    color: black;
+    cursor: pointer;
+}
